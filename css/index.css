@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+.barraInicial{
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.barraInicial li{
+    display:inline-block;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 20px;
+
+}
+
+.barraInicial li:hover{
+    color: orange;
+}
+
+.cuerpo div{
+    display:inline-block;
+    height: 85.5vh;
+    border: rgb(221, 193, 160) 0.3vw solid;
+}
+
+.cuerpo .principal{
+    background-color: seashell;
+    border-right-width: 0.17vw;
+    width: 47.43vw;
+    padding-left: 1.2vw;
+    padding-right: 3.326vw;
+    margin: 0px;
+    float: left;
+}
+
+.cuerpo .noticias{
+    background-color:lightblue;
+    border-left-width: 0.17vw;
+    width:42.58vw;
+    padding-left: 2vw;
+    margin: 0px;
+    float: right;
+    z-index: 1;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 0.5vh 0vw;
+    padding-right: 76.3vw;
+    display: block;
+    position: absolute;
+    top:96vh;
+}
